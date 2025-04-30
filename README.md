@@ -14,7 +14,7 @@
   $ npm install
   ```
 - создать файл .env в папке backend. Скопировать в него содержимое файла .env.example
-- в проекте используется PrismaORM для общения с бд Postgresql. Выполните команду, чтобы выполнить SQL миграцию:
+- в проекте используется PrismaORM для общения с бд Postgresql. Используйте команду, чтобы выполнить SQL миграцию:
   ```bash
     $ npx prisma migrate dev --name init
   ```
