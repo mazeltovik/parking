@@ -10,7 +10,6 @@ import {
   Headers,
 } from '@nestjs/common';
 import { ParkingSpotService } from './parkingSpot.service';
-import { ParkingSpot as ParkingSpotModel } from '../../generated/prisma/client';
 
 @Controller('parking-spots')
 export class ParkingSpotController {
